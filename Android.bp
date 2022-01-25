@@ -104,6 +104,9 @@ cc_prebuilt_library_shared {
              android_arm: {
                     srcs: ["proprietary/vendor/lib/libksensor.so"],
              },
+             android_arm64: {
+                    srcs: ["proprietary/vendor/lib64/libksensor.so"],
+             },
             },
            strip: {
                    none:true,
