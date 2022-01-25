@@ -276,7 +276,8 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/libhdrproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrproc.so \
     $(PROPRIETARY_DIR)/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
     $(PROPRIETARY_DIR)/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
-    $(PROPRIETARY_DIR)/vendor/lib/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwminijail.so \
+		$(PROPRIETARY_DIR)/vendor/lib/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwminijail.so \
+		$(PROPRIETARY_DIR)/vendor/lib64/libhwminijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwminijail.so \
     $(PROPRIETARY_DIR)/vendor/lib/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so \
     $(PROPRIETARY_DIR)/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     $(PROPRIETARY_DIR)/vendor/lib/libimageio_FrmB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_FrmB.so \
