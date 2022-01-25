@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymanage@1.0-service \
     $(PROPRIETARY_DIR)/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     $(PROPRIETARY_DIR)/vendor/bin/hw/vendor.mediatek.hardware.power@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.power@2.0-service \
+		$(PROPRIETARY_DIR)/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     $(PROPRIETARY_DIR)/vendor/bin/idme:$(TARGET_COPY_OUT_VENDOR)/bin/idme \
     $(PROPRIETARY_DIR)/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     $(PROPRIETARY_DIR)/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
@@ -609,7 +610,16 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
     $(PROPRIETARY_DIR)/vendor/lib/modules/wlan_drv_gen2.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen2.ko \
     $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
-    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko
+    $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
+    $(PROPRIETARY_DIR)/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
+    $(PROPRIETARY_DIR)/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtk-ril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrillog.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrilutils.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libreference-ril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/librilfusion.so :$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/librilutils.so :$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so
 
 PRODUCT_PACKAGES += \
   libnvram \
