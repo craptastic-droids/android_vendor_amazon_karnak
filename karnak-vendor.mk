@@ -461,7 +461,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib64/libfeatureiodrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libfposervice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfposervice.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libged.sp:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.sp \
+    $(PROPRIETARY_DIR)/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libhadeanframework_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhadeanframework_core.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libhadeangpu_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhadeangpu_util.so \
