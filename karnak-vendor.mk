@@ -362,6 +362,7 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifitest.so \
     $(PROPRIETARY_DIR)/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libplayreadydrmplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libplayreadydrmplugin.so \
+		$(PROPRIETARY_DIR)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     $(PROPRIETARY_DIR)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     $(PROPRIETARY_DIR)/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
     $(PROPRIETARY_DIR)/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
@@ -497,7 +498,8 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_cap.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_utility.so \
     $(PROPRIETARY_DIR)/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
+		$(PROPRIETARY_DIR)/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
+		$(PROPRIETARY_DIR)/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     $(PROPRIETARY_DIR)/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     $(PROPRIETARY_DIR)/vendor/lib64/soundfx/libaudiofx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiofx.so \
     $(PROPRIETARY_DIR)/vendor/lib64/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@4.1.so \
