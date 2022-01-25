@@ -166,7 +166,8 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
     $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.default.so \
     $(PROPRIETARY_DIR)/vendor/lib/hw/perfboost.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/perfboost.mt8163.so \
-    $(PROPRIETARY_DIR)/vendor/lib/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8163.so \
+		$(PROPRIETARY_DIR)/vendor/lib/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8163.so \
+		$(PROPRIETARY_DIR)/vendor/lib64/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt8163.so \
     $(PROPRIETARY_DIR)/vendor/lib/libsensors.mt8163.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensors.mt8163.so \
     $(PROPRIETARY_DIR)/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
     $(PROPRIETARY_DIR)/vendor/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymanage@1.0-impl.so \
