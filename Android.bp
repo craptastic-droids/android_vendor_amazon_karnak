@@ -15,135 +15,169 @@
  *
  */
 
+cc_prebuilt_library_shared {
+  name: "libdpframework",
+  owner: "Mediatek",
+  ///vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libdpframework.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib/libdpframework.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
 
+cc_prebuilt_library_shared {
+  name: "libmtkcam_fwkutils",
+  owner: "Mediatek",
+  vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libmtkcam_fwkutils.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/libmtkcam_fwkutils.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
+cc_prebuilt_library_shared {
+  name: "libnvram",
+  owner: "Mediatek",
+  vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libnvram.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/libnvram.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
+cc_prebuilt_library_shared {
+  name: "libcam.client",
+  owner: "Mediatek",
+  //vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libcam.client.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/libcam.client.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
+
+cc_prebuilt_library_shared {
+  name: "libcam_utils",
+  owner: "Mediatek",
+  //vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libcam_utils.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/libcam_utils.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
 
 
 cc_prebuilt_library_shared {
-    name: "libdpframework",
-    owner: "Mediatek",
-    ///vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libdpframework.so"],
-            },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
+  name: "libksensor",
+  owner: "Mediatek",
+  vendor: true,
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/libksensor.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/libksensor.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
 
 cc_prebuilt_library_shared {
-    name: "libmtkcam_fwkutils",
-    owner: "Mediatek",
-    vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libmtkcam_fwkutils.so"],
-            },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
-cc_prebuilt_library_shared {
-    name: "libnvram",
-    owner: "Mediatek",
-    vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libnvram.so"],
-            },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-    }
-cc_prebuilt_library_shared {
-    name: "libcam.client",
-    owner: "Mediatek",
-    //vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libcam.client.so"],
-             },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
+  name: "vendor.mediatek.hardware.audio@4.1",
+  vendor: true,
+  owner: "Mediatek",
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.audio@4.1.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
 
 cc_prebuilt_library_shared {
-    name: "libcam_utils",
-    owner: "Mediatek",
-    //vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libcam_utils.so"],
-             },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
-
-
-cc_prebuilt_library_shared {
-    name: "libksensor",
-    owner: "Mediatek",
-    vendor: true,
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/libksensor.so"],
-             },
-             android_arm64: {
-                    srcs: ["proprietary/vendor/lib64/libksensor.so"],
-             },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
-
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.audio@4.1",
-    vendor: true,
-    owner: "Mediatek",
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so"],
-             },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
-
-
-cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.camera.device@1.1",
-    vendor: true,
-    owner: "Mediatek",
-    target: {
-             android_arm: {
-                    srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1.so"],
-             },
-            },
-           strip: {
-                   none:true,
-             },
-             check_elf_files: false,
-             prefer: true,
-    }
+  name: "vendor.mediatek.hardware.camera.device@1.1",
+  vendor: true,
+  owner: "Mediatek",
+  target: {
+    android_arm: {
+      srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1.so"],
+    },
+    android_arm64: {
+      srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.device@1.1.so"],
+    },
+  },
+  strip: {
+    none: true,
+  },
+  check_elf_files: false,
+  compile_multilib: "both",
+  soc_specific: true,
+  prefer: true,
+}
