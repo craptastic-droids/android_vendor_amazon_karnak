@@ -613,13 +613,13 @@ PRODUCT_COPY_FILES += \
     $(PROPRIETARY_DIR)/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     $(PROPRIETARY_DIR)/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
     $(PROPRIETARY_DIR)/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libmtk-ril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrillog.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrilutils.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libreference-ril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/libril.so :$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/librilfusion.so :$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    $(PROPRIETARY_DIR)/vendor/lib64/librilutils.so :$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
+    $(PROPRIETARY_DIR)/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so
 
 PRODUCT_PACKAGES += \
   libnvram \
